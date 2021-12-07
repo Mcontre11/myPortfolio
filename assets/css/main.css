@@ -18,7 +18,8 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: auto;
+	width:auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -32,7 +33,18 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+img {
+	max-width: 100%;
+	height: auto;
+}
+.First .skills img{
+	width:100%;
+	margin:auto;
+}
+ .projects{
+	width:100%;
+	margin:auto;
+}
 ol, ul {
 	list-style: none;
 }
